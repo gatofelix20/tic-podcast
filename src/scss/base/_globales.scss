@@ -36,6 +36,8 @@ img {
 h1, h2, h3 {
     margin: 0 0 2rem  0 ;
 }
+
+
 h1 {
     font-size: 4rem;
 }
@@ -47,4 +49,11 @@ h3 {
 ul {
     padding: 0;
     list-style: none;
+}
+
+.seccion {
+    padding: 3rem 0;
+    @include m.tablet { 
+        padding: 8rem 0;
+    }
 }
